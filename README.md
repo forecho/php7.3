@@ -25,11 +25,23 @@ cd /data
 php 1-comma-after-the-last-argument.php
 ```
 
+## 性能
+
+![](http://ww1.sinaimg.cn/large/4cc5f9b3gy1fyasedmd1qj20q40lw0sw.jpg)
+
+- WordPress 5.0 PHP 5.6 benchmark: 91.64 req/sec
+- WordPress 5.0 PHP 7.0 benchmark results: 206.71 req/sec
+- WordPress 5.0 PHP 7.1 benchmark results: 210.98 req/sec
+- WordPress 5.0 PHP 7.2 benchmark results: 229.18 req/sec 
+- WordPress 5.0 PHP 7.3 benchmark results: 253.20 req/sec 
+
+相对 php 7.2 有提升22%，数据[来源](https://kinsta.com/blog/php-7-3/)。
+
 ## 参考连接
 
+- [Migrating from PHP 7.2.x to PHP 7.3.x](http://php.net/manual/zh/migration73.php)
 - [PHP 7.3 is On Track](https://www.phparch.com/2018/09/php-7-3-is-on-track)
-- [PHP 7.3 is On Track](https://kinsta.com/blog/php-7-3/)
+- [What’s New in PHP 7.3 (Now Available at Kinsta)](https://kinsta.com/blog/php-7-3/)
 - [What's New in PHP 7.3 in 30 Seconds in Diffs](https://www.tomasvotruba.cz/blog/2018/08/16/whats-new-in-php-73-in-30-seconds-in-diffs/)
 - [What’s New in PHP 7.3: A Look at Final Release](https://www.cloudways.com/blog/whats-new-in-php-7-3/)
 - [What's new and changing in PHP 7.3](https://ayesh.me/Upgrade-PHP-7.3)
-- [Migrating from PHP 7.2.x to PHP 7.3.x](http://php.net/manual/zh/migration73.php)
